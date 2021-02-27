@@ -1,0 +1,62 @@
+.container-fluid{
+    padding-left: 0rem;
+    margin-right: 0rem;
+
+}
+
+.navbar-brand{
+    background-color: rgb(122, 161, 173);
+    color: black !important;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    /* display: flex !important; */
+    flex-wrap: wrap !important;
+    /* flex-grow: initial; */
+    white-space: pre-wrap;
+ }
+
+.navbar-collapse {
+    /* justify-self: right !important; */
+    /* align-self: flex-end !important; */
+    /* display: flex !important; */
+    /* flex-direction: row-reverse !important; */
+    justify-content: flex-end !important;
+    flex-grow: 3 !important;
+}
+
+/* HERO IMAGE */
+
+
+.hero-image {
+    /* height: 800px; */
+    width: 100%;
+    /* margin-bottom: 25px; */
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#profile-pic{
+    margin-left: 20px;
+    /* width: 50% !important; */
+    height: auto !important;
+    width: auto !important;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+
+.hero-image h2{
+    /* margin-right: 10rem !important; */
+    padding: 10rem;
+    color: ivory;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 4;
+    /* white-space: pre-wrap; */
+}
